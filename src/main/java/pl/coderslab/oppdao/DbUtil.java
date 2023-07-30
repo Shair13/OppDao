@@ -12,6 +12,4 @@ public class DbUtil {
     public static Connection getConnection(String database) throws SQLException {
         return DriverManager.getConnection(String.format(DB_URL, database), DB_USER, DB_PASS);
     }
-
-//    public static void
 }
