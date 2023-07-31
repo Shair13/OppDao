@@ -7,10 +7,7 @@ public class User {
     private String password;
 
     public User(){
-        this.id = 0;
-        this.userName = null;
-        this.email = null;
-        this.password = null;
+        this(0, null, null, null);
     }
 
     public User(String userName, String email, String password){
